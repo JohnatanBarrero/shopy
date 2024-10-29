@@ -1,1 +1,44 @@
-node_modules
+# Node modules and dependencies
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Build output
+build/
+dist/
+.cache/
+
+# Shopify specific files
+/shopify.cache
+/shopify.env
+/shopify/
+/.shopify-cli/
+
+# Temporary files and logs
+*.tgz
+*.log
+*.lock
+
+# Editor-specific settings
+.vscode/
+.DS_Store
+
+# GitHub configuration
+.github/
+
+# SSH Keys
+*.pem
+
+# Testing output
+/coverage/

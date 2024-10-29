@@ -3,8 +3,13 @@
 client_id = "f4ad3264911924a264225bf2dd158b04"
 name = "Servientregadev"
 handle = "servientregadev"
-application_url = "https://oct-halifax-shorter-listening.trycloudflare.com"
+application_url = "https://cameroon-efficiently-tunisia-restaurant.trycloudflare.com"
 embedded = true
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "tiendaservientrega.myshopify.com"
+include_config_on_deploy = true
 
 [access_scopes]
 # Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
@@ -12,9 +17,9 @@ scopes = "read_orders,read_products,write_orders,write_products"
 
 [auth]
 redirect_urls = [
-  "https://oct-halifax-shorter-listening.trycloudflare.com/auth/callback",
-  "https://oct-halifax-shorter-listening.trycloudflare.com/auth/shopify/callback",
-  "https://oct-halifax-shorter-listening.trycloudflare.com/api/auth/callback"
+  "https://cameroon-efficiently-tunisia-restaurant.trycloudflare.com/auth/callback",
+  "https://cameroon-efficiently-tunisia-restaurant.trycloudflare.com/auth/shopify/callback",
+  "https://cameroon-efficiently-tunisia-restaurant.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
@@ -26,8 +31,3 @@ api_version = "2024-10"
 
 [pos]
 embedded = false
-
-[build]
-dev_store_url = "tiendaservientrega.myshopify.com"
-automatically_update_urls_on_dev = true
-include_config_on_deploy = true
